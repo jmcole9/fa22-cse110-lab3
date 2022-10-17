@@ -1,0 +1,79 @@
+/* Make the background color blue*/
+body {
+    background-color: rgb(99, 99, 225);
+}
+
+a:hover{
+    color:blueviolet;
+}
+
+p,h1{
+    color: red;
+}
+
+#unique {
+    font-family:'Courier';
+}
+
+h2 {
+    color: #FF0;
+}
+
+h3 {
+    color:hsl(147,50%,47%);
+}
+
+img{
+    width: 700px;
+    height: 160mm;
+}
+
+h1,h2,h3,p{
+    text-align:center;
+    padding:1ex;
+    margin:1ex
+}
+
+ul{
+    text-decoration:line-through;
+    text-align:left;
+    margin:auto;
+}
+
+p {
+    max-width: 500pt;
+    position:relative;
+    left:5em;
+    border: 2px orange;
+    font-family:'Helvetica';
+    margin-top: 10ex;
+}
+
+a[src="https://www.diagrams.net/assets/svg/home-dia2.svg"]{
+    position:static;
+}
+
+h1 {
+    min-width: 20rem;
+    border:fit-content;
+    margin-top:5ex;
+    padding-top:2ex;
+    padding-bottom:2ex;
+    border-style:dashed;
+    border-color:orange;
+    border-width:0.5ex;
+    border-radius:3ex;
+}
+
+.menu{
+    color:blue;
+}
+
+button:active{
+    color:blueviolet;
+}
+
+ul li{
+    text-decoration:underline;
+}
+
